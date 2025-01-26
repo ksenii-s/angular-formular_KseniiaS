@@ -1,0 +1,51 @@
+<div *ngIf="showForm" id="form-container">
+    <h1 class="h1">Kontakte</h1>
+    <form (submit)="displayData($event)">
+        <table class="formular">
+            <tr>
+                <td class="h2"><br><br>
+                    Füllen Sie das Formular aus, um Teil unseres <br>Teams zu werden.</td><br><br><br><br>
+            </tr>
+            <tr>
+                <td>
+                    <div class="radio-container">
+                        <span class="anrede-label">Anrede:</span>
+                        <div class="radio-group">
+                            <label>
+                                <input type="radio" name="anrede" value="Mann"> Mann
+                            </label>
+                            <label>
+                                <input type="radio" name="anrede" value="Frau"> Frau
+                            </label>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" name="name" placeholder="Name"><br><br>
+                    <input type="email" name="email" placeholder="E-Mail"><br><br>
+                    <input type="tel" name="telefonnumer" placeholder="Telefonnummer"><br><br>
+                    <button type="submit" value="Abschicken" class="buttom">Senden</button> 
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+<div id="result" *ngIf="!showForm" [innerHTML]="resultHtml" 
+     style="
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        height: 100vh;
+        width: 601px;
+        height: 600px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 25px;
+        box-shadow: 0px 17px 50px 0px #20284524;
+    "> 
+    
+</div>
+

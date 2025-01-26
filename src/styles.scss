@@ -1,1 +1,58 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-family:  Arial, sans-serif;
+}
+
+body:focus{
+    outline: none;
+}
+
+.pt-sans-regular {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.pt-sans-bold {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.f_size18{
+    font-size: 18px;
+}
+
+.f_size16{
+    font-size: 16px;
+}
+.f_size15 {
+    font-size: 15px;
+}
+.f_size14 {
+    font-size: 14px;
+}
+.bold{
+    font-weight: 700;
+}
+
+.buttom{
+    background-color: #FF3465;
+    color:#fff;
+    border-width: 0px;
+    text-align: center;
+    width: 180px;
+    height: 45px;
+    border-radius: 10px;
+    transition: background-color 0.5s ease, color 1s ease, transform 0.5s ease;
+}
+
+.buttom:hover {
+    color:#FF3465;
+    background-color:#fff;
+    border: 1px solid #FF3465;
+    transform: scale(1.05);
+ }

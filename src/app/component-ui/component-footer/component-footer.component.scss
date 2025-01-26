@@ -1,0 +1,33 @@
+.link a, .link {
+    text-decoration: none;
+}
+
+.nav_html{
+    margin-top: 44px;
+}
+
+
+footer .footer_links {
+    display: inline-block;
+}
+
+.btn-outline-danger {
+    text-align: center;
+    margin: 51px 0 87px ;
+    font-weight: 700;
+    border: 2px solid #FF3465;
+    background-color: #fff;
+    display: inline-block;
+    width: 247px;
+    height: 55px;
+    font-size: 15px;
+    border-radius: 10px;
+    color: #FF3465;
+    transition: background-color 0.5s ease, color 1s ease, transform 0.5s ease;
+}
+
+.btn-outline-danger:hover {
+    background-color:#FF3465;
+    color:#fff;
+    transform: scale(1.05);
+}

@@ -1,0 +1,79 @@
+ .formular {
+    width: 601px;
+    height: 650px;
+    text-align: center;
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    box-shadow: 0px 17px 50px 0px #20284524;
+}
+
+.formular :focus {
+    outline: none; 
+    border: 2px solid #ff3464; 
+    box-shadow: 0 0 5px #ff3464; 
+    color:#273456;
+}
+
+.h1{
+    margin-bottom: 50px;
+    color: #273456;
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.h2{
+    color: #273456;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.radio-container {
+    width: 473px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+}
+    
+.anrede-label {
+    color: #273456;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 4px;
+}
+
+.radio-group {
+    flex-grow: 1;
+    display: flex;
+    justify-content:center;
+    gap: 50px;
+    padding-right: 60px;
+}
+
+.radio-group label {
+    color: #273456;
+    display: inline-flex;
+    align-items: center;
+}
+
+.radio-group input[type="radio"] {
+    width: auto;
+    height: auto;
+    margin-right: 5px;
+}
+
+.formular input {
+    color: #27345642; 
+    font-size: 16px; 
+    padding: 10px; 
+    border: 1px solid #27345642;
+    border-radius: 10px;
+    box-sizing: border-box;
+    height: 59px;
+    width: 473px;
+}
+
+
+
